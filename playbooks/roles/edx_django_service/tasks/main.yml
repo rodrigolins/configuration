@@ -81,6 +81,7 @@
     - install
     - install:system-requirements
 
+# TODO Ensure we install optional requirements for ecommerce!
 - name: install production requirements
   command: make production-requirements
   args:
