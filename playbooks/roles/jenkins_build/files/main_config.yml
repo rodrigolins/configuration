@@ -19,7 +19,7 @@ GLOBAL_PROPERTIES:
           VALUE: '{{ JENKINS_MAIN_GITHUB_OWNER_WHITELIST }}'
     TOOL_LOCATIONS:
 LOCATION:
-    URL: 'https://build.testeng.edx.org/'
+    URL: '{{ JENKINS_MAIN_URL }}'
     ADMIN_EMAIL: '{{ JENKINS_MAIN_ADMIN_EMAIL }}'
 SHELL:
     EXECUTABLE: '/bin/bash'
